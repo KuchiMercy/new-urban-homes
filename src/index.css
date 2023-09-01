@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply text-white mx-3 px-2 my-4 text-xs  transition ease-out duration-500 outline-none m-2 text-center md:my-1;
+}
+
+.card{
+  @apply h-full rounded overflow-hidden shadow-md relative;
+}
+.right-loop{
+  background-image: url(./assets/loop.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.left-loop{
+  background-image: url(./assets/loop.jpeg);
+  background-size: cover;
+  background-position:center;
+
+}
